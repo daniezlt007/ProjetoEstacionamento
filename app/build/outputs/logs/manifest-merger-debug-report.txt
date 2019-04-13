@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-25:12
 MERGED from [com.android.support:appcompat-v7:27.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e31db20a81bf247efd8807a98152898d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/daniel/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ba6f19e6f1d4dd42f95acd9fb33e483c/AndroidManifest.xml:2:1-11:12
 MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/daniel/.gradle/caches/transforms-1/files-1.1/ion-2.2.1.aar/a7be62746e1fe459e7a0777231213f54/AndroidManifest.xml:2:1-16:12
+MERGED from [io.paperdb:paperdb:2.6] /home/daniel/.gradle/caches/transforms-1/files-1.1/paperdb-2.6.aar/5ad19aa960dc2d66c02cc721fcfd45fd/AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.volley:volley:1.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/f684c8d3b0288c361ec3d3001b23a4f1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:27.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/0643b9b4618b0f430268ee56cdf1eca0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/1185fa80e4379ebfc73845396a78cd57/AndroidManifest.xml:17:1-22:12
@@ -19,89 +20,89 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/daniel/.gradle/ca
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a53f26c7ee130f8d7b1df521300fae1a/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ff85ce5b7e3d7fb05e789da1dac27028/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8e79e9e06642f9bfe1f665cc8f8ed686/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:3:5-65
-		INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
-		INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:3:5-65
+		INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+		INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+		INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+		INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/daniel/.gradle/caches/transforms-1/files-1.1/ion-2.2.1.aar/a7be62746e1fe459e7a0777231213f54/AndroidManifest.xml:11:5-67
 MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/daniel/.gradle/caches/transforms-1/files-1.1/ion-2.2.1.aar/a7be62746e1fe459e7a0777231213f54/AndroidManifest.xml:11:5-67
 MERGED from [com.koushikdutta.async:androidasync:2.2.1] /home/daniel/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/9cfff7c3b829b2ac30fbd625e841ab6e/AndroidManifest.xml:11:5-67
 MERGED from [com.koushikdutta.async:androidasync:2.2.1] /home/daniel/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/9cfff7c3b829b2ac30fbd625e841ab6e/AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:8:5-24:19
+ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:8:5-23:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/daniel/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ba6f19e6f1d4dd42f95acd9fb33e483c/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/daniel/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ba6f19e6f1d4dd42f95acd9fb33e483c/AndroidManifest.xml:9:5-20
 MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/daniel/.gradle/caches/transforms-1/files-1.1/ion-2.2.1.aar/a7be62746e1fe459e7a0777231213f54/AndroidManifest.xml:13:5-14:19
 MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/daniel/.gradle/caches/transforms-1/files-1.1/ion-2.2.1.aar/a7be62746e1fe459e7a0777231213f54/AndroidManifest.xml:13:5-14:19
+MERGED from [io.paperdb:paperdb:2.6] /home/daniel/.gradle/caches/transforms-1/files-1.1/paperdb-2.6.aar/5ad19aa960dc2d66c02cc721fcfd45fd/AndroidManifest.xml:12:5-20
+MERGED from [io.paperdb:paperdb:2.6] /home/daniel/.gradle/caches/transforms-1/files-1.1/paperdb-2.6.aar/5ad19aa960dc2d66c02cc721fcfd45fd/AndroidManifest.xml:12:5-20
 MERGED from [com.android.volley:volley:1.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/f684c8d3b0288c361ec3d3001b23a4f1/AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/f684c8d3b0288c361ec3d3001b23a4f1/AndroidManifest.xml:9:5-20
 MERGED from [com.koushikdutta.async:androidasync:2.2.1] /home/daniel/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/9cfff7c3b829b2ac30fbd625e841ab6e/AndroidManifest.xml:13:5-14:19
 MERGED from [com.koushikdutta.async:androidasync:2.2.1] /home/daniel/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/9cfff7c3b829b2ac30fbd625e841ab6e/AndroidManifest.xml:13:5-14:19
 	android:supportsRtl
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:12:9-48
 	android:icon
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:14:9-48
-activity#projetoestacionamento.com.br.projetoestacionamento.TesteActivity
-ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:15:9-50
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:14:9-48
+activity#projetoestacionamento.com.br.projetoestacionamento.activitys.ConfigActivity
+ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:15:9-71
 	android:name
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:15:19-48
-activity#projetoestacionamento.com.br.projetoestacionamento.LoginActivity
-ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:16:9-22:20
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:15:19-59
+activity#projetoestacionamento.com.br.projetoestacionamento.activitys.MainActivity
+ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:16:19-48
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:16:19-57
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:20:27-74
-activity#projetoestacionamento.com.br.projetoestacionamento.MainActivity
-ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:23:9-59
-	android:name
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:23:19-47
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml:20:27-74
 uses-sdk
-INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
-INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:27.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e31db20a81bf247efd8807a98152898d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e31db20a81bf247efd8807a98152898d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/daniel/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ba6f19e6f1d4dd42f95acd9fb33e483c/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/daniel/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ba6f19e6f1d4dd42f95acd9fb33e483c/AndroidManifest.xml:5:5-7:41
 MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/daniel/.gradle/caches/transforms-1/files-1.1/ion-2.2.1.aar/a7be62746e1fe459e7a0777231213f54/AndroidManifest.xml:7:5-9:41
 MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/daniel/.gradle/caches/transforms-1/files-1.1/ion-2.2.1.aar/a7be62746e1fe459e7a0777231213f54/AndroidManifest.xml:7:5-9:41
+MERGED from [io.paperdb:paperdb:2.6] /home/daniel/.gradle/caches/transforms-1/files-1.1/paperdb-2.6.aar/5ad19aa960dc2d66c02cc721fcfd45fd/AndroidManifest.xml:8:5-10:41
+MERGED from [io.paperdb:paperdb:2.6] /home/daniel/.gradle/caches/transforms-1/files-1.1/paperdb-2.6.aar/5ad19aa960dc2d66c02cc721fcfd45fd/AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.volley:volley:1.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/f684c8d3b0288c361ec3d3001b23a4f1/AndroidManifest.xml:7:5-43
 MERGED from [com.android.volley:volley:1.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/f684c8d3b0288c361ec3d3001b23a4f1/AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:support-fragment:27.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/0643b9b4618b0f430268ee56cdf1eca0/AndroidManifest.xml:20:5-44
@@ -126,13 +127,13 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/daniel/.gradle/caches/t
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ff85ce5b7e3d7fb05e789da1dac27028/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8e79e9e06642f9bfe1f665cc8f8ed686/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/daniel/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8e79e9e06642f9bfe1f665cc8f8ed686/AndroidManifest.xml:20:5-44
-INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
-INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
-		INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+		INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+		INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
-		ADDED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
-		INJECTED from /home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+		INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+		ADDED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml
+		INJECTED from /home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/src/main/AndroidManifest.xml

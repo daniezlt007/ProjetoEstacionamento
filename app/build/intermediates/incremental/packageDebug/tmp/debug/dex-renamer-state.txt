@@ -1,7 +1,7 @@
-#Tue Jan 22 18:03:59 BRT 2019
-base.0=/home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/build/intermediates/transforms/dexMerger/debug/12
+#Sat Apr 13 09:21:23 BRT 2019
+base.0=/home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/build/intermediates/transforms/dexMerger/debug/13
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/build/intermediates/transforms/dexMerger/debug/11
+base.1=/home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/build/intermediates/transforms/dexMerger/debug/12

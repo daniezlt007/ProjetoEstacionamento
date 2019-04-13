@@ -1,11 +1,11 @@
 #Internal package file, do not edit.
-#Wed Jan 09 19:21:31 BRT 2019
-1.base=/home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/build/intermediates/transforms/dexMerger/debug/11
+#Sat Apr 13 09:21:23 BRT 2019
+1.base=/home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/build/intermediates/transforms/dexMerger/debug/13
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
 1.set=DEX
 0.path=classes.dex
 0.set=DEX
-0.base=/home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/build/intermediates/transforms/dexMerger/debug/12
+0.base=/home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/build/intermediates/transforms/dexMerger/debug/12
 1.path=classes.dex

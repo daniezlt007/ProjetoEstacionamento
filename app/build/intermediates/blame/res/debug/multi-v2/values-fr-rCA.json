@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "/home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "/home/daniel/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/e7b8d8bd323b79d6951d990fe286a31e/res/values-fr-rCA/values-fr-rCA.xml",

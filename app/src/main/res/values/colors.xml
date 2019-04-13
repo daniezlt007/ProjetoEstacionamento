@@ -5,4 +5,13 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorRadio">#4e4848</color>
     <color name="colorFundo">#FFF</color>
+
+    <color name="branco">#fff</color>
+    <color name="bg_toast">#0c0c4d</color>
+
+    <color name="primary_sucesso">#8cc53e</color>
+    <color name="primary_info">#52c5b9</color>
+    <color name="primary_error">#ff081e</color>
+    <color name="primary_alert">#ffae41</color>
+
 </resources>

@@ -6,7 +6,9 @@ import android.widget.EditText;
 
 public class MaskEditUtil {
 
-    public static final String FORMAT_PLACA = "###-####";
+    public static final String FORMAT_PLACA = "###";
+    public static final String FORMAT_IP = "###.###.#.###";
+
     /*public static final String FORMAT_CPF = "###.###.###-##";
     public static final String FORMAT_FONE = "(###)####-#####";
     public static final String FORMAT_CEP = "#####-###";
@@ -33,7 +35,7 @@ public class MaskEditUtil {
 
             @Override
             public void onTextChanged(final CharSequence s, final int start, final int before, final int count) {
-                final String str = MaskEditUtil.unmask(s.toString());
+                final String str = MaskEditUtil.unmask(s.toString()).toUpperCase();
                 String mascara = "";
                 if (isUpdating) {
                     old = str;

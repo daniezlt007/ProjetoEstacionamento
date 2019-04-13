@@ -1,116 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context=".MainActivity">
+    tools:context=".activitys.MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="78dp"
         android:text="Entrada de Veículos"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="103dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginBottom="8dp"
         android:text="PLACA"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtPlaca"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/txtPlaca"
-        android:layout_width="wrap_content"
-        android:layout_height="46dp"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="184dp"
         android:background="@drawable/txt_layout"
         android:ems="10"
+        android:text=""
         android:inputType="text"
+        android:maxLength="3"
         android:textAlignment="center"
-        android:maxLength="8"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imgCarro"
-        android:layout_width="107dp"
-        android:layout_height="76dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/txtPlaca"
-        android:layout_marginTop="201dp"
+        android:layout_width="104dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="68dp"
         android:background="@android:color/white"
-        app:srcCompat="@drawable/if_ic_directions_car_48px_352315" />
+        android:src="@drawable/if_ic_directions_car_48px_352315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPlaca" />
 
     <ImageButton
         android:id="@+id/imgMoto"
-        android:layout_width="107dp"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/txtPlaca"
-        android:layout_alignTop="@+id/imgCarro"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="92dp"
         android:background="@android:color/white"
-        app:srcCompat="@drawable/if_motorcycle_172508" />
-
-    <RadioGroup
-        android:id="@+id/rbGroup"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="201dp"
-        >
-
-        <RadioButton
-            android:id="@+id/rbEstacionamento"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/radio"
-            android:text="Estacionamento" />
-
-        <RadioButton
-            android:id="@+id/rbConvenio"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignStart="@+id/rbEstacionamento"
-            android:layout_weight="1"
-            android:background="@drawable/radio"
-            android:text="Convênio" />
-    </RadioGroup>
+        android:src="@drawable/if_motorcycle_172508"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPlaca2" />
 
     <Button
         android:id="@+id/btnConsultar"
-        android:layout_width="121dp"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="90dp"
-        android:layout_marginEnd="51dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="180dp"
         android:background="@drawable/botoes"
         android:drawableLeft="@drawable/ic_search_black_24dp"
-        android:text="Consultar" />
+        android:text="Consultar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnConfirmar"
-        android:layout_width="121dp"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/btnConsultar"
-        android:layout_marginEnd="-19dp"
-        android:layout_toStartOf="@+id/textView2"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="180dp"
         android:background="@drawable/botoes"
         android:drawableLeft="@drawable/ic_save_black_24dp"
-        android:text="Confirmar" />
+        android:text="Confirmar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnConfig"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/botoes"
+        android:drawableLeft="@drawable/ic_build_black_24dp"
+        android:text="Config"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text=""
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgCarro" />
+
+    <EditText
+        android:id="@+id/txtPlaca2"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/txt_layout"
+        android:ems="10"
+        android:maxLength="4"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:digits="0123456789"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="8dp"
+        android:text="-"
+        android:textSize="72sp"
+        app:layout_constraintEnd_toStartOf="@+id/txtPlaca2"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toEndOf="@+id/txtPlaca"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
-</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

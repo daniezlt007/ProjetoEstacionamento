@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/daniel/AndroidStudioProjects/ProjetoEstacionamento/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/home/daniel/AndroidStudioProjects/github/ProjetoEstacionamento/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/home/daniel/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e31db20a81bf247efd8807a98152898d/res/values-v24/values-v24.xml",

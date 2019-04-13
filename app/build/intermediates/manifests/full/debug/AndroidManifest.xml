@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="projetoestacionamento.com.br.projetoestacionamento"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="2.0" >
 
     <uses-sdk
-        android:minSdkVersion="22"
+        android:minSdkVersion="19"
         android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -16,19 +16,18 @@
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.NoTitleBar" >
-        <activity android:name="projetoestacionamento.com.br.projetoestacionamento.TesteActivity" />
-        <activity android:name="projetoestacionamento.com.br.projetoestacionamento.LoginActivity" >
+        <activity android:name="projetoestacionamento.com.br.projetoestacionamento.activitys.ConfigActivity" />
+        <activity android:name="projetoestacionamento.com.br.projetoestacionamento.activitys.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="projetoestacionamento.com.br.projetoestacionamento.MainActivity" />
     </application>
 
 </manifest>
